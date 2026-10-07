@@ -1,0 +1,14 @@
+Source: ooschema
+Section: utils
+Priority: optional
+Maintainer: openOODA-tools <ops@openooda.org>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: ooschema
+Architecture: amd64
+Depends: libc6
+Description: INFER SCHEMA
+ Infers structural JSON schemas and column datatypes from stream datasets.
+ Capability-bounded openOODA utility with zero ambient authority,
+ oote theme palettes, and native Model Context Protocol (MCP) surface.
